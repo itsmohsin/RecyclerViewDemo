@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     private fun listItemClicked(fruit: Fruit){
         Toast.makeText(
             this@MainActivity,
-            "Suplier of Fruit is : ${fruit.supplier}",
+            "Supplier of Fruit is : ${fruit.supplier}",
             Toast.LENGTH_LONG
         ).show()
     }
